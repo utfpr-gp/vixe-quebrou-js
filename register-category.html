@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Vixe Quebrou</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!--Import Google Category Font-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/libraries/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css">
+    <link rel="stylesheet" href="assets/resources/styles/style.css">
+
+    <script src="assets/libraries/jquery/jquery-2.2.4.min.js"></script>
+    <script src="assets/libraries/materialize/js/materialize.js"></script>
+    <script src="assets/resources/scripts/common.js"></script>
+
+
+    <script>
+        $(function() {
+            $("#footer").load("footer.html");
+            $("#menu").load("menu.html");
+        });
+
+    </script>
+</head>
+
+
+<body>
+    <div id="menu"></div>
+
+    <main class="container">
+        <!-- título-->
+        <div class="my-item">
+            <div class="col s12 valign-wrapper">
+                <i class="fa fa-3x"></i>
+                <h3 class="my-title">Categorias</h3>
+            </div>
+            <div class="my-stripes">
+                <span class="my-line my-stripe-span"></span>
+            </div>
+        </div>
+        <!-- título-->
+        <!-- formulario-->
+        <div class="row">
+            <div class="col s12">
+                <form action="">
+                    <label for="input-category">Nova Categoria</label>
+                    <input id="input-category" type="text">
+                    <label for="select-category">Nova Categoria</label>
+                    <select id="select-category">
+                    <option>Elétrica</option>
+                    <option>Hidráulica</option>
+                    </select>
+                    <button class="btn blue right">CADASTRAR</button>
+                </form>
+            </div>
+        </div>
+        <!-- formulario-->
+        <!-- lista de categorias-->
+        <div class="row">
+            <!-- item-->
+            <div class="col s12 m6 ">
+                <div class="row card-panel">
+                    <div class="col s4 my-item-icon"><i class="material-icons medium">flash_on</i></div>
+                    <div class="col s8 my-item-text">Elétrica</div>
+                    <div class="col s12 right-align"><i class="material-icons small">delete</i></div>
+                </div>
+            </div>
+            <!-- item-->
+        </div>
+        <!-- lista de categorias-->
+    </main>
+
+    <div id="footer"></div>
+    <script src="assets/resources/scripts/register-category.js"></script>
+</body>
+
+</html>
