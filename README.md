@@ -1,6 +1,7 @@
 # vixe-quebrou-js
 
 Qualidade do código
+
 - [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
 - [ ] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc disponível no moodle)
 - [ ] Usar strict mode
@@ -8,14 +9,20 @@ Qualidade do código
 - [ ] Usar pasta assets e subpastas resources e libraries para organizar o código
 - [ ] Usar let ao invés de var
 - [ ] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
+
 Caixas de Diálogo
+
 - [x] prompt
 - [x] alert
 - [x] confirm
+
 Temporizadores
+
 - [ ] setInterval
 - [ ] setTimeout
+
 Funções
+
 - [ ] Função anônima com argumento
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
