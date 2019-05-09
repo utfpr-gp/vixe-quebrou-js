@@ -1,5 +1,8 @@
 # vixe-quebrou-js
 
+GitHub Pages: 
+https://utfpr-gp.github.io/vixe-quebrou-js/.
+
 Qualidade do código
 
 - [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
