@@ -19,7 +19,6 @@ Funções
 - [ ] Função anônima com argumento
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
-- [ ] Função anônima com retorno
 - [ ] Função auto-executável
 - [ ] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
@@ -37,7 +36,7 @@ Eventos
 
 Acesso aos elementos DOM do HTML
 
-- [ ] Via acesso direto pelo id do elemento HTML
+- [ ] Via referência DOM pelo id do elemento HTML
 - [ ] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
@@ -60,7 +59,8 @@ Objetos Nativos
 Objetos
 
 - [ ] Criar objeto usando função construtora ou notação literal
-- [ ] Usar herança prototipal
+- [ ] Criar objetos a partir da definição de classes do ES6
+- [ ] Usar herança prototipal nativa ou herança de classes do ES6
 
 Qualidade do código
 
@@ -69,7 +69,7 @@ Qualidade do código
 - [ ] Usar strict mode
 - [ ] Usar Module Pattern
 - [x] Usar pasta assets e subpastas resources e libraries para organizar o código
-- [x] Usar let ao invés de var
+- [x] Usar let ou const ao invés de var
 - [x] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
 
 Formulário
@@ -84,15 +84,15 @@ Formulário
 - [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
 - [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
 
-Canvas
+~~Canvas~~
 
-- [ ] Desenho de caminho ou arco
-- [ ] Desenho de texto ou imagem
+~~- [ ] Desenho de caminho ou arco~~
+~~- [ ] Desenho de texto ou imagem~~
 
-Animação
+~~Animação~~
 
-- [ ] Por meio da manipulação do vetor images
-- [ ] Por meio da manipulação do canvas
+~~- [ ] Por meio da manipulação do vetor images~~
+~~- [ ] Por meio da manipulação do canvas ~~
 
 jQuery
 
@@ -103,12 +103,13 @@ jQuery
 - [ ] Especificar o tratador de algum evento via jQuery
 - [ ] Manipulação do CSS via função css() e addClass()/removeClass()
 - [ ] Manipulação do conteúdo de um input e div usando jQuery
+- [ ] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 
-Manipular componentes do HTML5 API
+~~Manipular componentes do HTML5 API~~
 
-- [ ] map
-- [ ] online ou visibilidade
-- [ ] audio ou video
+~~- [ ] map~~
+~~- [ ] online ou visibilidade~~
+~~- [ ] audio ou video~~
 
 Web Storage
 
