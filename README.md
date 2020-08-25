@@ -84,16 +84,6 @@ Formulário
 - [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
 - [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
 
-~~Canvas~~
-
-~~- [ ] Desenho de caminho ou arco~~
-~~- [ ] Desenho de texto ou imagem~~
-
-~~Animação~~
-
-~~- [ ] Por meio da manipulação do vetor images~~
-~~- [ ] Por meio da manipulação do canvas ~~
-
 jQuery
 
 - [ ] Uso de seletores CSS - id, classe e tag
@@ -104,12 +94,6 @@ jQuery
 - [ ] Manipulação do CSS via função css() e addClass()/removeClass()
 - [ ] Manipulação do conteúdo de um input e div usando jQuery
 - [ ] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
-
-~~Manipular componentes do HTML5 API~~
-
-~~- [ ] map~~
-~~- [ ] online ou visibilidade~~
-~~- [ ] audio ou video~~
 
 Web Storage
 
