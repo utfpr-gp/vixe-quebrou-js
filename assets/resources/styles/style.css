@@ -213,5 +213,10 @@ footer {
 /**
     Item de categoria
 */
+.my-show {
+  display: block;
+}
 
-
+.my-hide {
+  display: none;
+}

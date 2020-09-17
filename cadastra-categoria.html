@@ -13,17 +13,22 @@
     <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css">
     <link rel="stylesheet" href="assets/resources/styles/style.css">
 
+    <style>
+        .dropdown-content li:not(:first-child)>span {
+            font-family: 'Material Icons';
+        }
+    </style>
+
     <script src="assets/libraries/jquery/jquery-2.2.4.min.js"></script>
     <script src="assets/libraries/materialize/js/materialize.js"></script>
     <script src="assets/resources/scripts/common.js"></script>
 
 
     <script>
-        $(function() {
+        $(function () {
             $("#footer").load("footer.html");
             $("#menu").load("menu.html");
         });
-
     </script>
 </head>
 
@@ -43,18 +48,29 @@
             </div>
         </div>
         <!-- título-->
+        <!-- alerta -->
+        <div class="row my-hide" name="div-alert">
+            <div class="col s12 m5">
+                <div class="card-panel blue">
+                    <span class="white-text" id="spanMessage">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- alerta -->
         <!-- formulario-->
         <div class="row">
             <div class="col s12">
-                <form action="">
+                <form id="form-category" method="POST">
                     <label for="input-category">Nova Categoria</label>
                     <input id="input-category" type="text">
-                    <label for="select-category">Nova Categoria</label>
+                    <label for="select-category">Ícone</label>
                     <select id="select-category">
-                    <option>Elétrica</option>
-                    <option>Hidráulica</option>
+                        <option disabled selected value>Selecione uma opção</option>
+                        <option value="flash_on">flash_on</option>
+                        <option value="opacity">opacity</option>
                     </select>
-                    <button class="btn blue right">CADASTRAR</button>
+                    <button type="submit" class="btn blue right">CADASTRAR</button>
                 </form>
             </div>
         </div>
@@ -62,12 +78,13 @@
         <!-- lista de categorias-->
         <div class="row">
             <!-- item-->
-            <div class="col s12 m6 ">
-                <div class="row card-panel">
+            <div id='div-list' class="row">
+
+                <!--div class="row card-panel">
                     <div class="col s4 my-item-icon"><i class="material-icons medium">flash_on</i></div>
                     <div class="col s8 my-item-text">Elétrica</div>
                     <div class="col s12 right-align"><i class="material-icons small">delete</i></div>
-                </div>
+                </div-->
             </div>
             <!-- item-->
         </div>
@@ -75,7 +92,10 @@
     </main>
 
     <div id="footer"></div>
+    <script src="assets/resources/scripts/category.js"> </script>
+    <script src="assets/resources/scripts/database.js"></script>
     <script src="assets/resources/scripts/register-category.js"></script>
+
 </body>
 
 </html>
